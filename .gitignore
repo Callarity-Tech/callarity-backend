@@ -42,3 +42,6 @@ docker-compose.override.yml
 
 #Vosk model
 vosk-model-*/
+
+#json file
+logs.json
