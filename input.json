@@ -1,0 +1,9 @@
+[
+  {
+    "text": "Hello from Callarity. AI voice system is now active.",
+    "speaker_id": null,
+    "length_scale": 1.0,
+    "noise_scale": 0.667,
+    "phoneme_noise_scale": 0.8
+  }
+]
