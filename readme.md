@@ -1,12 +1,16 @@
 #backend repo
 
-## Download Vosk model (English Indian 0.5) from 
-https://alphacephei.com/vosk/models
+## to run the stt server run
+```bash
+node run stt
 
-## To run Python server (FastAPI + Uvicorn):
-uvicorn app:app --host 0.0.0.0 --port 8000
+```
 
-## To test the API via terminal curl command:
-curl -X POST http://localhost:4000/api/stt \
-     -F "audio=@/<audio_address>" -F "lang=en
-"
+## To fetch speech-to-text in real-time:
+Send a POST request in Postman (or from frontend) to:
+
+```bash
+http://localhost:<port>/api/stt
+
+```
+
